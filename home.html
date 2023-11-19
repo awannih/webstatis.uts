@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mom Fruits</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="home.css" />
+    <link rel="icon" type="x-icon" href="images/android-chrome-512x512.png" />
+  </head>
+  <body>
+    <!-- Nav Start -->
+    <nav>
+      <div class="screen-in">
+          <div class="logo">
+            <!-- sidebar -->
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <!-- widget jam -->
+              <li><div id="DisplayClock" class="clock" onload="showTime()"></div></li>
+              <a href="#">Pesan online dibawah sini  </a>
+              <a href="https://gofood.co.id/" target="_blank"><img src="images/111.png" alt="Gofood"> Gofood</a>
+              <a href="https://food.grab.com/id/id/" target="_blank"><img src="images/222.png" alt="Grabfood">Grabfood</a>
+              <a href="https://shopee.co.id/m/shopeefood" target="_blank"><img src="images/333.png" alt="ShopeeFood">ShopeeFood</a>
+            </div>
+            <div id="main">
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> 
+              <a href="home.html"><img src="images/logo1.png" class="putih" /></a>
+            </div>
+            <!-- sidebar end -->
+          </div>
+          <!-- Hamburger Menu -->
+          <div class="menu">
+            <a href="#" class="hamburger" onclick="myFunction(this)">
+              <span class="garis1"></span>
+              <span class="garis2"></span>
+              <span class="garis3"></span>
+            </a>
+            <!-- Menu -->
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <!-- dropdown -->
+              <li class="dropdown">
+                <a href="about.html" class="dropbtn">About</a>
+                  <div class="dropdown-content">
+                    <a href="about.html">Tentang Kita</a>
+                    <a href="about.html">Sejarah</a>
+                    <a href="about.html">Tujuan</a>
+                  </div>
+              </a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="registrasi.html">Registration</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </nav>
+      <!-- Nav End -->
+    <div class="layar-penuh">
+      <header id="home">
+        <!-- Overlay -->
+        <div class="overlay"></div>
+        <!-- Video -->
+        <video autoplay loop>
+          <source src="images/videoplayback.mp4" type="video/mp4" />
+        </video>
+        <!-- Text Intro -->
+        <div class="intro">
+          <h3>Fresh <span>Fruit</span></h3>
+          <marquee direction= "left">Selamat datang di Mom Fruits</marquee>
+           <marquee direction= "right"> Tempat terbaik untuk menikmati kelezatan segar dan kesehatan alami!</marquee>
+          <p>
+            <a href="#promo" class="tombol">MORE INFO</a>
+          </p>
+        </div>
+      </header>
+      <!-- main section start -->
+      <main>
+        <!-- slider image -->
+        <section class="slider">
+          <div class="slides">
+            <span id="slide-1"></span>
+            <span id="slide-2"></span>
+            <span id="slide-3"></span>
+            <span id="slide-4"></span>
+              <div class="sliderimg">
+                <img src="images/slider1.jpg">
+                <img src="images/slider2.jpg">
+                <img src="images/slider3.jpg">
+                <img src="images/slider4.jpg">
+            </div>
+          </div>
+<!-- navigasi slider -->
+          <div class="navigation">
+            <a href="#slide-1">1</a>
+            <a href="#slide-2">2</a>
+            <a href="#slide-3">3</a>
+            <a href="#slide-4">4</a>
+          </div>
+        </section>
+        <div id="promo" class="promo">
+          <h3>Promo</h3>
+            <div class="konten-isi">
+              <p>"Jangan lewatkan Promo Mom Fruits eksklusif kami! Dapatkan penawaran istimewa untuk berbagai jus buah segar berkualitas tinggi. Mulai dari kiwi hingga stroberi juicy, Mom Fruits memberikan kelezatan dan nutrisi terbaik untuk keluarga Anda. Belanja sekarang dan nikmati kelezatan alami dengan diskon luar biasa. " <br><br>Tersedia di GoFood, GrabFood, dan ShopeeFood.</p>
+            </div>
+            <div class="screen-in">
+              <div class="copyright">&copy; 2023 desain by Ade Setiawan [Mom Fruits]</div>
+            </div>
+        </div>
+  </body>
+    <!-- js -->
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous">
+</script>
+<script src="js/script_uts.js"></script>
+</script>
+</html>
